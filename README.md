@@ -2,6 +2,6 @@ VABHelper
 =========
 
 Plugin for Kerbal Space Program (https://kerbalspaceprogram.com/). The plugin adds these functionalities to the game:
-* When constructing spacecraft / aircraft - a menu with a list of parts can be shown by Control+Shift+Click so that it's possible to detach any of them (regardless of z-index). The shortcut is configurable.
+* Ability to detach obscured parts when constructing spacecraft / aircraft using Control+MiddleClick (a menu will be shown where the user can pick which part to detach).
 
 The plugin was created and tested using KSP v0.23. The source code was created using Visual Studio Express 2013.

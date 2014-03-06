@@ -25,7 +25,7 @@ namespace sk.mareolan.ksp.vabhelper {
     }
 
     void Start() {
-      string shortcut = (PickShortcut != null ? PickShortcut : "Control+Shift+Click");
+      string shortcut = (PickShortcut != null ? PickShortcut : "Control+MiddleClick");
       LOGGER.debug("Using pick shortcut: {0}", shortcut);
       partPickerShortcut = ShortcutHelper.CompileShortcut(shortcut);
     }
